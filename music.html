@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="CSS/styles.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/2f7665425c.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+
+		<!--Header
+		---------------->
+		
+		<nav>
+			<div class = 'logo'>
+				<a href="index.html">MINGSHIH WANG</a>
+			</div>
+			<ul class = 'sidebar'>	
+				<li><a href="about.html">About</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="contact.html">contacts</a></li>
+			</ul>
+			<div class="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<div class = 'shade'></div>
+
+		</nav>
+		
+
+		<!--Section
+		----------------->
+		<div class="hide">
+			<section class = 'music'>
+				<div class="viola fontSpartan">
+					Music
+				</div>
+				<div class="genre fontSpartan">
+					Viola Solo
+				</div>
+				<div class="musicContainer fontSpartan">
+					<div class="medias marginCenter mySlides">
+						<div class="violaDiscription ">
+							29/March/2018 <br>   
+							George Enescu - Konzertstück for Viola and Piano (cropped)
+						</div>
+						<video width="480" height="360" class = 'video' controls>
+							<source src="videos/Enesco.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<div class="medias marginCenter mySlides">
+						<div class="violaDiscription ">
+							29/October/2019 <br>   
+							William Walton - Viola Concerto 3rd movement
+						</div>
+						<video width="480" height="360" class = 'video' controls>
+							<source src="videos/Walton.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<!-- <div class="medias marginCenter mySlides">
+						<div class="violaDiscription ">
+							29/October/2019 <br>   
+							George Enescu - Konzertstück for Viola and Piano 3
+						</div>
+						<video width="480" height="360" class = 'video' controls>
+							<source src="videos/Enesco.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div> -->
+					<div class="slideButton">
+						<button class="slide-left" onclick="plusDivs(-1, 0)">&#12296;</button>
+						<div class="dots">
+							<div class="demo" onclick="currentDiv(1, 0)"></div>
+							<div class="demo" onclick="currentDiv(2, 0)"></div>
+							<!-- <div class="demo" onclick="currentDiv(3, 0)"></div> -->
+						</div>
+						<button class="slide-right" onclick="plusDivs(1, 0)">&#12297;</button>
+
+					</div>
+				</div>
+				<div class="genre fontSpartan">
+					Esemble
+				</div>
+				<div class="musicContainer fontSpartan">
+			
+					<div class="medias marginCenter mySlides1">
+						<div class="violaDiscription ">
+							20/November/2021 <br>
+							Brandeis-Wellesley Orchestra (BWO) Concert <br><br>
+							Program: <br>
+							Antonín Dvořák - Symphony No. 9 "from the New World" <br>
+							Dmitri Shostakovich - Shostakovich Cello Concerto No. 2, 
+							<a href="https://www.google.com/url?q=https%3A%2F%2Fwww.wellesley.edu%2Fmusic%2Ffacstaff%2Frussell&sa=D&sntz=1&usg=AFQjCNGRw1ERZ-SqxhPNw6O23UotMenLGQ" class = "Russel">David Russell</a>
+							, cello
+						</div>
+						<img width="480" height="auto" class = 'images' src="images/Orchestra_2021:11:20.JPG" >
+					</div>
+					<div class="medias marginCenter mySlides1">
+						<div class="violaDiscription ">
+							02/June/2019 <br>
+							Kang Chiao International School (KCIS) Joint Concert<br><br>
+							Antonin Dvorak - Piano Quintet No. 2 in A Major, Op 81, 1st Mvt. Allegro, ma non tanto
+						</div>
+						<video width="480" height="360" class = 'video' controls>
+							<source src="videos/KCIS_2:6:2019_Dvorak.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<div class="medias marginCenter mySlides1">
+						<div class="violaDiscription ">
+							27/August/2018 <br>
+							Kang Chiao International School (KCIS) Quintet Recital<br><br>
+							Johannes Brahms - Quintet in F minor, Op. 34, Mvt. III 
+						</div>
+						<video width="480" height="360" class = 'video' controls>
+							<source src="videos/KCIS_27:08:2018_Brahms.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<div class="slideButton1">
+						<button class="slide-left" onclick="plusDivs(-1, 1)">&#12296;</button>
+						<div class="dots">
+							<div class="demo1" onclick="currentDiv(1, 1)"></div>
+							<div class="demo1" onclick="currentDiv(2, 1)"></div>
+							<div class="demo1" onclick="currentDiv(3, 1)"></div>
+						</div>
+						<button class="slide-right" onclick="plusDivs(1, 1)">&#12297;</button>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<section class = 'mobile'>
+			<div class="phone">
+				<h1>mobile website is still in progress, please launch it on a desktop</h1>
+			</div>
+		</section>
+
+		<!--Footer
+		----------------->
+		
+		<footer>
+			<ul>	
+				<li><h3>Brandeis University</h3></li>
+				<li class = 'logo-small'><a href="index.html">MINGSHIH WANG</a></li>
+			</ul>
+		</footer>
+
+		<!--JavaScript
+		-----------------> 
+
+		<script src = 'JS/sidebar.js'></script>
+		<script src = 'JS/slideshow.js'></script>
+
+	</body>
+</html>
+
