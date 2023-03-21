@@ -1,2 +1,2 @@
 # personal_website
-I created this personal website building on my first website. The hardest part for the personal website is creating the slide show function for my music page and making the design of the slide show pretty. 
+I created this personal website as my first website. The hardest part for the personal website is creating the slide show function for my music page and making the design of the slide show pretty. This website is built with plain html/css/js as a practice for learning these languages. 
